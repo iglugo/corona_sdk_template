@@ -1,0 +1,46 @@
+settings =
+{
+    plugins =
+    {
+        ["CoronaProvider.ads.admob"] =
+        {
+            publisherId = "com.coronalabs"
+        },
+    },  
+
+
+	orientation =
+	{
+		default = "potrait",
+	},
+
+	
+	 android =
+   {
+      usesPermissions =
+      {
+         "android.permission.INTERNET",
+         "android.permission.ACCESS_NETWORK_STATE",
+         "android.permission.READ_PHONE_STATE",
+      },
+   },
+	
+	iphone =
+	{
+		plist=
+		{
+	
+		CFBundleIconFile = "Icon.png",
+			CFBundleIconFiles =
+			{
+				"Icon-72.png", 
+				"Icon-72@2x.png", 
+			},
+		
+			UIStatusBarHidden=true,
+			UIApplicationExitsOnSuspend = false
+		},
+	},
+	
+}
+
