@@ -1,11 +1,34 @@
 Nombre: Corona SDK Starter Template
 ===================================
 
-Autor: YoFriki.com Iglugo.com
+Author/Autor: YoFriki.com Iglugo.com
 
-Descripción: Plantilla muy básica para empezar a trabajar con aplicaciones en CORONA SDK, utilizamos la librería COMPOSER para el cambio de escena, libreía común para la gestión de botones, volumen y publcidad con Admob, y otra de ejemplo para que vayan creando las funciones de creación y purga de elemenos. Plantilla desarrollada por YoFriki.com e Iglugo.com, si quieres más tutoriales no dejen de visitarnos ... :)
+Description: Basic corona SDK starter template to start your project!
 
-Requisitos: Versión de Corona SDK Starter (gratuita) build:  v2014.2189
+MAIN FEATURES
+- Composer for scene management
+- Admob preconfigured, just insert Admob ID and enable set _G.modo_free=true in main.lua
+- All buttons mapped, and android keys emulated with h: home, +: Vol up, -: Vol down, ESC: back
+- Debug messages shown in console controlled by flag  _G.modo_debug=true / false, to add new messages on app use this syntax: if _G.modo_debug==true then print("example debug message") end
+- Shows in console memory usage if _G.modo_debug==true 
+- 2 libraries included: common_libs: to control volume, volume control skin, keys, ads
+                                  personal_libs: Example personal library for future reference
+- Windows script added "corona.bat" which automatically installs apk file located in same directory of the cript, and then starts a debugger to show debugging messages of your app on the computer meanwhile the usb cable maintains plugged.
+
+
+Descripción: Plantilla básica para corona SDK starter para iniciar tus proyectos!
+
+CARACTERÍSTICAS PRINCIPALES
+- Gestión de escenas con composer
+- Publicidad Admob preconfigurado, solo insertar tu ID de Admob y activar _G.modo_free=true en main.lua
+- Todas las teclas mapeadas, Las teclas android han sido emuladas con el teclado h: home, +: Vol up, -: Vol down, ESC: back
+- Los mensajes de debugeado mostrados en consola están controlados mediante el flag:  _G.modo_debug=true / false en main.lua, para añadir mensajes nuevos de debugeado utilizar la siguiente sintaxis: if _G.modo_debug==true then print("msg ejemplo") end
+- Muestra el uso de memoria en consola si: _G.modo_debug==true 
+- 2 librerias incluidas: common_libs: control de volumen, volume control skin, teclas, publicidad
+                                  personal_libs: Ejemplo de librería personal, puesto como referencia
+- Añadido script de Windows "corona.bat" que instalará un archivo con extensión APK a un dispositivo android conectado por USB, posteriormente se visalizará en el PC los mensajes de debuggeo de la aplicacón siempre y cuando se mantenga el móvil conectado por cable al ordenador.
+
+Requirements/Requisitos: Corona SDK Starter (gratuita) build:  v2014.2189
 
 Ver: 2.0
 
